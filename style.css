@@ -1,0 +1,117 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+.fundo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(216, 221, 226);
+    width: 60%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+header h1{
+    font-size: 45px;
+    color:chocolate;
+}
+.detalhes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.detalhes figure{
+    margin: 0px;
+}
+.preparo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    color: darkgrey;
+    border: 2px grey solid;}
+.rendimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    color: darkgrey;
+    border: 2px grey solid;
+}
+.favoritos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    color: darkgrey;
+    border: 2px grey solid;
+}
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    color: darkgrey;
+    border: 2px grey solid;
+}
+.cor{
+    color: chocolate;
+    margin-top: 0px;
+}
+.estilo{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: chocolate;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.estilo img{
+    width: 50px;
+    margin-right: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    border: 3px chocolate solid;
+    padding: 25px;
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 20px;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border: 3px chocolate solid;
+    padding: 25px;
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 20px;
+}
+li{
+    margin: 5px;
+}
