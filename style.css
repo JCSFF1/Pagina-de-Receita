@@ -19,6 +19,8 @@ header{
     margin-top: 20px;
 }
 header h1{
+    display: flex;
+    text-align: center;
     font-size: 45px;
     color:chocolate;
 }
